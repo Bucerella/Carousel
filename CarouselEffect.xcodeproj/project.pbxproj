@@ -66,20 +66,44 @@
 		9B3659F72257F19C0045A4EC /* CarouselEffect */ = {
 			isa = PBXGroup;
 			children = (
-				9B365A0A2257F27C0045A4EC /* Interest.swift */,
+				9B59FA8F225E08EE0071C7F9 /* Controller */,
+				9B59FA8E225E08D40071C7F9 /* View */,
+				9B59FA8D225E08C90071C7F9 /* Model */,
 				9B3659F82257F19C0045A4EC /* AppDelegate.swift */,
-				9B20328E2258CEBC008434E3 /* InterestViewController.swift */,
-				9B261F2C225A6FFF007EA26C /* DiscoverController.swift */,
-				9B365A0C2257F9A50045A4EC /* InterestCollectionViewCell.swift */,
-				9B261F2E225A750A007EA26C /* DiscoverCollectionCell.swift */,
-				9B261F30225A7668007EA26C /* Discover.swift */,
-				9BB04668225BF795001757A4 /* LikeButton.swift */,
 				9B3659FC2257F19C0045A4EC /* Main.storyboard */,
 				9B3659FF2257F19D0045A4EC /* Assets.xcassets */,
 				9B365A012257F19D0045A4EC /* LaunchScreen.storyboard */,
 				9B365A042257F19D0045A4EC /* Info.plist */,
 			);
 			path = CarouselEffect;
+			sourceTree = "<group>";
+		};
+		9B59FA8D225E08C90071C7F9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9BB04668225BF795001757A4 /* LikeButton.swift */,
+				9B261F30225A7668007EA26C /* Discover.swift */,
+				9B365A0A2257F27C0045A4EC /* Interest.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9B59FA8E225E08D40071C7F9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9B365A0C2257F9A50045A4EC /* InterestCollectionViewCell.swift */,
+				9B261F2E225A750A007EA26C /* DiscoverCollectionCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9B59FA8F225E08EE0071C7F9 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9B261F2C225A6FFF007EA26C /* DiscoverController.swift */,
+				9B20328E2258CEBC008434E3 /* InterestViewController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
